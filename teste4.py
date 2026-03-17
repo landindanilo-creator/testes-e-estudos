@@ -67,3 +67,10 @@ valor_km = (km * 0.15)
 print("Valor total gasto em gasolina por km é: ", valor_km)
 gasto_total =  valor_km + valor_carro
 print("Gasto total com o alugel é de : ", gasto_total)
+
+
+#programa de expectativa de vida 
+quanti_cigarro = int(input(("Quantos cigarros voce fuma por dia? ")))
+anos_fumando = int(input("A quantos anos voce fuma? "))
+resultado_fumar = (quanti_cigarro * anos_fumando * 365)/1440
+print(f"Resultado de anos fumando, dias perdidos é aproximadamente: {resultado_fumar: .0f}")
